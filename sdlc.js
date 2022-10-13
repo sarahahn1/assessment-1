@@ -32,7 +32,7 @@ const analysisOfRequirements = "This step is the process of determining user exp
 
 const design = " the process of finding and designing ways a software application will work"
 
-const implementation = "installing a new hardware or software system or application."
+const implementation = "carrying out the designs"
 
 const testingAndIntegration = " is the phase in software testing in which individual software modules are combined and tested as a group"
 

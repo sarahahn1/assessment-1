@@ -5,7 +5,7 @@ const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
 
-const colorCopy = faveColors.slice(0,2)
+const colorCopy = faveColors.slice()
 console.log(colorCopy)
 
 
@@ -44,9 +44,25 @@ const middleNums = numbers.slice(1,4)
 const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 
 // CODE HERE
- for (let i = 0; i > bigOrSmallArray ; i++)
- if ( bigOrsmallArray > 100) {
-  console.log('big')
- } else  {
-  console.log('small')
- }
+
+let answers = []
+for (i = 0; i < bigOrSmallArray.length; i++) {
+  if (bigOrSmallArray[i] > 100){
+    answers.push('big')
+  } else {
+    answers.push('small')
+  }
+}
+
+console.log(answers)
+
+
+
+
+
+//  for (let i = 0; i > bigOrSmallArray ; i++)
+//  if ( bigOrsmallArray > 100) {
+//   console.log('big')
+//  } else  {
+//   console.log('small')
+//  }
